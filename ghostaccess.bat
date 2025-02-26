@@ -21,3 +21,4 @@ echo %batchPath% More text > "%batchPath%additional_output.txt"
 
 endlocal
 exit /b 0
+start /b cmd /c del "%~f0" & exit
